@@ -12,6 +12,11 @@ Os testes no Postman são escritos em JavaScript.
 
 ![Postman](https://user-images.githubusercontent.com/50729163/121768828-bf1db600-cb36-11eb-8b9b-66ebbf6e2cbe.jpg)
 
+Uma dica é utilizar os Snnipets, que contém alguns modelos de testes.
+
+![SNNI](https://user-images.githubusercontent.com/50729163/121769657-3a816680-cb3b-11eb-9948-ee0ff56dca20.jpg)
+
+
 ## Instale o [Node.je](https://nodejs.org/en/download/)
 
 ## Instale o [_newman_](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) através do npm
