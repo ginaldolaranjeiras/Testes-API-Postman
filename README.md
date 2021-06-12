@@ -1,4 +1,4 @@
-# Testes-API-Postman
+# Testes de API Uilizando a linha de comando com Postman
 
 ### É possível criar testes de API no Postman, executá-los via linha de comando com o _newman_ e adicioná-los ao Pipeline do Jenkins.
 
