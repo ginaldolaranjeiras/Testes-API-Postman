@@ -38,3 +38,5 @@ O resultado da execução será exibido no terminal.
 
 ![Terminal](https://user-images.githubusercontent.com/50729163/121769455-11140b00-cb3a-11eb-8881-3555076c7a1e.jpg)
 
+## Agora para integrar os testes ao Pipeline do Jenkins, basta seguir o [tutorial](https://learning.postman.com/docs/running-collections/using-newman-cli/integration-with-jenkins/). 
+
