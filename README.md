@@ -2,7 +2,7 @@
 
 ### Se você é novo com testes de API comece por aqui primeiro.
 
-Precisamos descobrir os conhecimentos básicos que envolvem APIs: o protocolo HTTP, a Notação Json e API REST 
+Precisamos descobrir os conhecimentos básicos que envolvem APIs: o protocolo HTTP, a Notação Json, API REST e API SOAP.
 
 
 
@@ -16,6 +16,8 @@ Precisamos descobrir os conhecimentos básicos que envolvem APIs: o protocolo HT
 
 [API REST](https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api)
 
+
+[API SOAP](https://www.soapui.org/learn/api/soap-vs-rest-api/)
 
 
 É preciso conhecer o Postman e como realizar testes através dele.
