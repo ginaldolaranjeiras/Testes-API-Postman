@@ -1,5 +1,31 @@
 # Testes de API Uilizando a linha de comando com Postman
 
+### Se você é novo com testes de API comece por aqui primeiro.
+
+Precisamos descobrir os conhecimentos básicos que envolvem APIs: o protocolo HTTP, a Notação Json e API REST 
+
+
+
+[HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
+
+
+
+[JSON](https://www.json.org/json-pt.html)
+
+
+
+[API REST](https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api)
+
+
+
+É preciso conhecer o Postman e como realizar testes através dele.
+
+
+
+[Postman Docs](https://learning.postman.com/)
+
+### Se já conhece o básico sobre APIs e como utilizar o Postman, comece por aqui.
+
 ### É possível criar testes de API no Postman, executá-los via linha de comando com o _newman_ e adicioná-los ao Pipeline do Jenkins.
 
 # Configuração do ambiente
