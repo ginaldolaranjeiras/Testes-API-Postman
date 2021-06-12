@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "ea2556c4-34ce-4343-a285-c829445b5fdd",
+		"name": "Love Movies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.environment.get(\"api_key\");\r",
+							"\r",
+							"pm.test(\"Status code retorna 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Header contém Content-Type\", function () {\r",
+							"pm.response.to.have.header(\"Content-Type\", \"application/json;charset=utf-8\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body contém o results\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"results\");\r",
+							"});\r",
+							"\r",
+							"//desempenho\r",
+							"pm.test(\"Tempo de resposta é menor do que 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/popular?api_key={{api_key}}&language=pt-BR",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"popular"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{api_key}}"
+						},
+						{
+							"key": "language",
+							"value": "pt-BR"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
