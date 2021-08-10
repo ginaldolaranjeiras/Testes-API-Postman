@@ -52,7 +52,7 @@ Uma dica é utilizar os Snnipets, que contém alguns modelos de testes.
 No terminal cmd execute _npm install -g newman_
 
 
-## Export a coleção com os testes e salve no diretório de sua preferência
+## Exporte a coleção com os testes e salve no diretório de sua preferência
 
 ![Collection Export](https://user-images.githubusercontent.com/50729163/121769167-77982980-cb38-11eb-8146-7c9db2978b49.jpg)
 
