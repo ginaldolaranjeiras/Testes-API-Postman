@@ -45,7 +45,7 @@ Uma dica é utilizar os Snnipets, que contém alguns modelos de testes.
 ![SNNI](https://user-images.githubusercontent.com/50729163/121769657-3a816680-cb3b-11eb-9948-ee0ff56dca20.jpg)
 
 
-## Instale o [Node.je](https://nodejs.org/en/download/)
+## Instale o [Node.js](https://nodejs.org/en/download/)
 
 ## Instale o [_newman_](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) através do npm
 
